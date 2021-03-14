@@ -57,16 +57,67 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Dedicated to showing all the options you and your family have
-                    for a fun day on the water in Panama City Beach!
-                    Answer a few simple questions and find options on what tours would best serve you and your parties
-                    needs!
-                </h3>
+                <a role="button" class="btn btn-lg btn-primary text-uppercase" id="quizButton">Answer Some Questions</a>
+                <div id="quizModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title text-uppercase">Answer Some Questions!</h3>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <form>
+                                        <div class="row form-group">
+                                            <label for="Number of Passengers" class="col-sm-6 col-form-label">How many
+                                                people are in your group?</label>
+                                            <div class="col">
+                                                <select name="numPassengers" id="numPassengers" class="form-control">
+                                                    <option value="0">Select</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <label for="Type of Trip" class="col-sm-6 col-form-label">What are you in
+                                                the mood for?</label>
+                                            <div class="col">
+                                                <select name="tripType" id="tripType" class="form-control">
+                                                    <option value="0">Select</option>
+                                                    <option value="dolphinAdventure">Adventurous</option>
+                                                    <option value="fishingCharter">Fishing</option>
+                                                    <option value="leisureCruise">Relaxing</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div>
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Dedicated to showing all the options you and your family
+                        have
+                        for a fun day on the water in Panama City Beach!
+                        Answer a few simple questions and find options on what tours would best serve you and your
+                        parties
+                        needs!
+                    </h3>
+
+                </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-md-4">
-                    <button class="btn btn-primary btn-xl" id="quizButton">Answer Our Questions</button>
+
                 </div>
             </div>
         </div>
