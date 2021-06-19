@@ -95,6 +95,18 @@
                                             </div>
                                         </div>
                                         <div class="row form-group">
+                                            <label for="Time of Trip" class="col-sm-6 col-form-label">What time of day
+                                                are you wanting?</label>
+                                            <div class="col">
+                                                <select name="tripTime" id="tripTime" class="form-control">
+                                                    <option value="0">Select</option>
+                                                    <option value="morningTrip">Morning</option>
+                                                    <option value="afternoonTrip">Afternoon</option>
+                                                    <option value="eveningTrip">Evening</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
                                             <label for="Type of Trip" class="col-sm-6 col-form-label">What are you in
                                                 the mood for?</label>
                                             <div class="col">
@@ -106,6 +118,12 @@
                                                 </select>
                                             </div>
                                         </div>
+                                                <div class="col">
+                                                    <button class="btn btn-secondary" type="submit" data-dismiss="modal">Cancel</button>
+                                                    <button class="btn btn-primary" type="button"
+                                                        onclick="window.open('quizresults.html'), '_blank';">Finish</button>
+                                                </div>
+                                            </div>
 
                                     </form>
                                 </div>
@@ -113,16 +131,16 @@
                         </div>
                     </div>
                 </div>
-               
-               
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
 
-                </div>
+
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+        </div>
         </div>
         </div>
         </div>
@@ -132,94 +150,39 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Dolphin Tours</h2>
-                <h3 class="section-subheading text-muted">The most personal and customizable of tours. Yet they can also be the most misunderstood charter in the area. Companies will try to get you to book with them by saying you are gauranteed to swim with dolphins, but that is not always possible. You are looking for wild animals in their natural habitat and a lot of different factors go into the outcome of your time in the water with the dolphins. Also keep in mind these are wild and untrained animals, so if the dolphins do not behave the way you want them to, do not be upest with your captain! Just enjoy the moment and salvage what you can from the experience.</h3>
+                <h3 class="section-subheading text-muted">The most personal and customizable of tours. Yet they can also
+                    be the most misunderstood charter in the area. Companies will try to get you to book with them by
+                    saying you are guaranteed to swim with dolphins, but that is not always possible. You are looking
+                    for wild animals in their natural habitat and a lot of different factors go into the outcome of your
+                    time in the water with the dolphins. Also keep in mind these are wild and untrained animals, so if
+                    the dolphins do not behave the way you want them to, do not be upset with your captain! Just enjoy
+                    the moment and salvage what you can from the experience.</h3>
             </div>
+
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/logos/dolphin tours.png"alt="" />
+                        <h4>Reef Runner Sailing Charters</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+
+
         </div>
     </section>
     <!--Fishing Charters-->
@@ -227,7 +190,10 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Fishing Charters</h2>
-                <h3 class="section-subheading text-muted">Panama City Beach has no shortage of options when it comes to fishing! We want to help you find the best fit for your party! Whether you know exactly what you want from your fishing trip or it is your first time and have no idea what to expect, let us help you get "hooked" up with a great charter!</h3>
+                <h3 class="section-subheading text-muted">Panama City Beach has no shortage of options when it comes to
+                    fishing! We want to help you find the best fit for your party! Whether you know exactly what you
+                    want from your fishing trip or it is your first time and have no idea what to expect, let us help
+                    you get "hooked" up with a great charter!</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
@@ -264,7 +230,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/logos/trolling.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/logos/king.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Trolling</div>
@@ -278,7 +244,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/logos/shark.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Shark</div>
@@ -322,13 +288,14 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Leisure Cruises</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Sit back and relax as you take in the beautiful surroundings
+                    that Panama City Beach has to offer, whether it be the Gulf of Mexico or St. Andrews Bay!</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                        <h4>Kay Garland</h4>
+                        <h4>Path Finder Sailing Charters</h4>
                         <p class="text-muted">Lead Designer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -338,7 +305,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                        <h4>Larry Parker</h4>
+                        <h4>Sea Screamer</h4>
                         <p class="text-muted">Lead Marketer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -348,7 +315,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                        <h4>Diana Petersen</h4>
+                        <h4>Reef Runner Sailing Charters</h4>
                         <p class="text-muted">Lead Developer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -460,9 +427,14 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Inshore Fishing</h2>
-                                <p class="item-intro text-muted">Fish the Beautiful Water of the well protected St. Andrews Bay</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/logos/inshorefishing.png" alt="" />
-                                <p>St. Andrews Bay is well known for its inshore fishing, whether you want to get out and target some nice redfish or take the kids on their first fishing adventure, these inshore fishing trips are a perfect way to spend a wonderful action packed day.</p>
+                                <p class="item-intro text-muted">Fish the Beautiful Water of the well protected St.
+                                    Andrews Bay</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/logos/inshorefishing.png"
+                                    alt="" />
+                                <p>St. Andrews Bay is well known for its inshore fishing, whether you want to get out
+                                    and target some nice redfish or take the kids on their first fishing adventure,
+                                    these inshore fishing trips are a perfect way to spend a wonderful action packed
+                                    day.</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Threads</li>
@@ -491,9 +463,16 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Bottom Fishing</h2>
-                                <p class="item-intro text-muted">Get offshore and see whats swimming along the bottom of the Gulf!</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/logos/bottomfishing.png" alt="" />
-                                <p>Bottom trips are a great way to spend the day! Especially in the summer when the Red Snapper season opens up, but if its not Red Snapper season there are always plenty of other fish to be caught offshore! If you are interested in the bottom fishing trips make sure you also look at the information about Federaly Permitted Charters and State Permitted Charters on this page so you can have all the information you need to make the most informed choice!</p>
+                                <p class="item-intro text-muted">Get offshore and see whats swimming along the bottom of
+                                    the Gulf!</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/logos/bottomfishing.png"
+                                    alt="" />
+                                <p>Bottom trips are a great way to spend the day! Especially in the summer when the Red
+                                    Snapper season opens up, but if its not Red Snapper season there are always plenty
+                                    of other fish to be caught offshore! If you are interested in the bottom fishing
+                                    trips make sure you also look at the information about Federally Permitted Charters
+                                    and State Permitted Charters on this page so you can have all the information you
+                                    need to make the most informed choice!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Explore</li>
@@ -524,7 +503,11 @@
                                 <h2 class="text-uppercase">Trolling Trips</h2>
                                 <p class="item-intro text-muted">Relaxing and action filled all rolled into one!</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/logos/trolling.jpg" alt="" />
-                                <p>Trolling trips are usually the shortest and cheapest option when chartering a fishing boat. But don't let the time and price fool you! When the bite is on you are sure to be worn out at the end of the trip and bring back a nice haul of fish! In the Spring and Fall charters will target the Spanish Mackeral and King Mackeral but you never know what you might hook into while you are out there!</p>
+                                <p>Trolling trips are usually the shortest and cheapest option when chartering a fishing
+                                    boat. But don't let the time and price fool you! When the bite is on you are sure to
+                                    be worn out at the end of the trip and bring back a nice haul of fish! In the Spring
+                                    and Fall charters will target the Spanish Mackerel and King Mackerel but you never
+                                    know what you might hook into while you are out there!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Finish</li>
@@ -555,7 +538,11 @@
                                 <h2 class="text-uppercase">Shark Fishing</h2>
                                 <p class="item-intro text-muted">From land or sea!</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Shark fishing is typically done at night and can be done from a Charter Boat or from right off the beach! There are a few guides who offer their services and set up poles and bait and all you need right off the beach! Or you could ride out into the sunset on a Charter anchor the boat throw out the shark baits and do some bottom fishing while patiently waiting to hear the shark pole to get a bite!</p>
+                                <p>Shark fishing is typically done at night and can be done from a Charter Boat or from
+                                    right off the beach! There are a few guides who offer their services and set up
+                                    poles and bait and all you need right off the beach! Or you could ride out into the
+                                    sunset on a Charter anchor the boat throw out the shark baits and do some bottom
+                                    fishing while patiently waiting to hear the shark pole to get a bite!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Lines</li>
@@ -587,7 +574,10 @@
                                 <p class="item-intro text-muted">Go out further to deeper water!
                                 </p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                <p>Boats that have a federal permit are allowed to out past the nine mile state water line. Generally this means they are able to have more fishing spots that gives you a great chance to target bigger fish! So if you want that trophy fish usually a federally permitted boat is going to give you the best oppurtunity to do so!</p>
+                                <p>Boats that have a federal permit are allowed to out past the nine mile state water
+                                    line. Generally this means they are able to have more fishing spots that gives you a
+                                    great chance to target bigger fish! So if you want that trophy fish usually a
+                                    federally permitted boat is going to give you the best oppurtunity to do so!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Southwest</li>
@@ -618,7 +608,11 @@
                                 <h2 class="text-uppercase">State Water Charters</h2>
                                 <p class="item-intro text-muted">Stay within Nine Miles of Shore</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>State Water Charters have to stay within Nine Miles of the shore, but this is not a problem for the skilled captains and fishermen that Panama City Beach has to offer! Time and time again these boats come in with impressive catches! During peak fishing seasons it can just be a little congested and competitive within that nine-mile line!</p>
+                                <p>State Water Charters have to stay within Nine Miles of the shore, but this is not a
+                                    problem for the skilled captains and fishermen that Panama City Beach has to offer!
+                                    Time and time again these boats come in with impressive catches! During peak fishing
+                                    seasons it can just be a little congested and competitive within that nine-mile
+                                    line!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
                                     <li>Client: Window</li>
@@ -627,6 +621,35 @@
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal1a" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Dolphin Tours</h2>
+                                <p class="item-intro text-muted">Take your chances on swimming with wild Dolphins!</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/logos/dolphin tours.png"
+                                    alt="" />
+                                <p>Panama City Beach is known for having one of the largest populations of Atlantic
+                                    bottled nose dolphins and these tours give you a chance to get into the water with
+                                    them in their natural habitat!</p>
+
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close
                                 </button>
                             </div>
                         </div>

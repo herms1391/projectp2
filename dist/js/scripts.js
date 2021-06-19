@@ -43,6 +43,12 @@
     $('#quizButton').click(function() {
         $('#quizModal').modal('show');
     });
+    $('#finishQuiz').click(function() {
+        $('#quizresults.html')('show');
+    });
+    $('#resultsButton').click(function() {
+        $('#results.html')('show');
+    });
 
     // Collapse Navbar
     var navbarCollapse = function () {
@@ -56,5 +62,13 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
-    
+
 })(jQuery); // End of use strict
+
+const dolphinTours = [["Flippers", "Blue Dolphin", "Adventures At Sea"]]
+
+const fishingCharters = [["Southern Hooker", "Hog Tied", "Killen Time", "Cats in the Hatt"]]
+
+const leisureCruises = [["Island Time", "Sea Screamer", "Pathfinder Charters", "Reef Runner Sailing"]]
+
+const pontoonRentals = [["Adventures At Sea", "Lagoon Pontoon", "Shell Island Boat Rentals"]]

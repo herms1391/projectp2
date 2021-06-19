@@ -4785,10 +4785,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #fed136, #3046C5, #5637dd); 
+  color: white; 
 }
 @media (min-width: 576px) {
   .jumbotron {
